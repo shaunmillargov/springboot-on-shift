@@ -3,7 +3,7 @@
 ideas from: https://blog.openshift.com/using-spring-boot-on-openshift/
 
 Pertinent bits about this application:
-- The war file name has been set to "ROOT" in the pom file. 
+- The war file name has been set to "ROOT" in the pom file (necessary for deployment on OpenShift)
 - When deploying to a new Openshift project, use the OpenJDK 8 template
 - Use a PUBLIC github project (this one) as the git source.
 - Look to the services tab in Openshift console once the project has completed building and the container has been deployed. 
